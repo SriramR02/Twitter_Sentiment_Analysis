@@ -1,13 +1,13 @@
 # Twitter Sentiment Analysis
 
-![Streamlit](https://streamlit.io/brand) !FastAPI
+ 
 
-This project performs sentiment analysis on tweets using Natural Language Processing (NLP) and Machine Learning (ML) models. The application is built with Streamlit for the frontend and FastAPI for the backend.
+This project performs sentiment analysis on tweets using **Natural Language Processing (NLP)** and **Machine Learning (ML)** models. The application is built with **Streamlit** for the frontend and **FastAPI** for the backend.
 
 ---
 
 ## Table of Contents
-- [Introduction](#introduction)
+- Introduction
 - Features
 - Installation
 - Usage
@@ -32,19 +32,14 @@ Twitter Sentiment Analysis is a project that analyzes the sentiment of tweets. I
 ---
 
 ## Installation
-1. Clone the repository:
-    ```bash
-    git clone https://github.com/yourusername/twitter-sentiment-analysis.git
-    cd twitter-sentiment-analysis
-    ```
 
-2. Create and activate a virtual environment:
+1. Create and activate a virtual environment:
     ```bash
     python -m venv venv
     source venv/bin/activate  # On Windows use `venv\Scripts\activate`
     ```
 
-3. Install the required dependencies:
+2. Install the required dependencies:
     ```bash
     pip install -r requirements.txt
     ```
@@ -59,7 +54,7 @@ Twitter Sentiment Analysis is a project that analyzes the sentiment of tweets. I
 
 2. Start the Streamlit frontend:
     ```bash
-    streamlit run app/frontend.py
+    streamlit run app/app.py
     ```
 
 3. Open your browser and go to `http://localhost:8501` to access the Streamlit interface.
@@ -77,7 +72,7 @@ Twitter Sentiment Analysis is a project that analyzes the sentiment of tweets. I
     - Response:
         ```json
         {
-            "sentiment": "positive"  # or "negative" or "neutral"
+            "sentiment": "positive"  # or "negative" 
         }
         ```
 
