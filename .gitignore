@@ -172,3 +172,9 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#virtual env
+ttf/
+
+#key
+data/
