@@ -72,7 +72,7 @@ Twitter Sentiment Analysis is a project that analyzes the sentiment of tweets. I
     - Response:
         ```json
         {
-            "sentiment": "positive"  or "neutral"  or "negative"
+            "sentiment": "positive"  or "negative"
         }
         ```
 
