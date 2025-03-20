@@ -82,6 +82,8 @@ Twitter Sentiment Analysis is a project that analyzes the sentiment of tweets. I
 - **NLP**: Natural Language Processing techniques for text analysis
 - **ML**: Machine Learning models for sentiment classification
 - **Streamlit**: Web framework for the frontend
+  -![Positive Sentiment](positive.png)
+  -![Negative Sentiment](negative.png) 
 - **FastAPI**: Web framework for the backend API
 
 ---
